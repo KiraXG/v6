@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+
+const PAGE_ITEM_MAX = 8;		//每页有多少项
+const ALARM_LIST_PAGE_ITEM_MAX = 8;
+
+var Consts = {
+	COMPANY_NAME_GENERAL_MANAGER:'最高管理员',
+	HTTP_PREFIX:'https://app.parsen.com.cn/ParsenHttpApiV030/',
+	
+	WS_PREFIX:'wss://app.parsen.com.cn/ParsenHttpApiV030/com/finder/',
+	
+	TXAPI_KEY:'R55BZ-G426D-SDR4G-HTX2V-MRN2Z-RABKY',
+	
+	
+	LO_ALARM_1_MASK:0x0001,
+	HI_ALARM_1_MASK:0x0002,
+	LO_ALARM_2_MASK:0x0004,
+	HI_ALARM_2_MASK:0x0008,
+	WIN_ALARM_1_MASK:0x0010,
+	WIN_ALARM_2_MASK:0x0020,
+	RISE_ALARM_MASK:0x0040,
+	FALL_ALARM_MASK:0x0080,
+};
+
+
+
+
+
